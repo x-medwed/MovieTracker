@@ -31,18 +31,18 @@
 
 ## 📁 Структура проєкту
 my_app/ 
-├─ main.py # Запуск GUI 
-├─ requirements.txt # Залежності 
-├─ settings.json # Налаштування 
-├─ app/ 
-│ ├─ gui/ # Інтерфейс 
-│ ├─ db/ # База даних 
-│ ├─ excel/ # Excel-логіка 
-│ ├─ utils/ # Утиліти 
-│ └─ config.py # Глобальні параметри 
-└─ data/ 
-├─ database.db # SQLite база 
-└─ exports/ # Excel-файли
+-main.py # Запуск GUI 
+-requirements.txt # Залежності 
+-settings.json # Налаштування 
+--app/ 
+---gui/ # Інтерфейс 
+---db/ # База даних 
+---excel/ # Excel-логіка 
+---utils/ # Утиліти 
+---config.py # Глобальні параметри 
+--data/ 
+-atabase.db # SQLite база 
+-exports/ # Excel-файли
 
 ## 🚀 Запуск
 ```bash
