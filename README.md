@@ -30,6 +30,7 @@
 - GUI → базова панель для параметричного керування
 
 ## 📁 Структура проєкту
+```bash
 my_app/ 
 -main.py # Запуск GUI 
 -requirements.txt # Залежності 
@@ -43,14 +44,15 @@ my_app/
 --data/ 
 -atabase.db # SQLite база 
 -exports/ # Excel-файли
-
+```
 ## 🚀 Запуск
 ```bash
 python main.py
-
+```
 ## 📦 Віртуальне середовище
+```bash
 python -m venv venv
 source venv/bin/activate  # або venv\Scripts\activate на Windows
 pip install -r requirements.txt
-
+```
 MIT License — вільне використання з зазначенням авторства.
